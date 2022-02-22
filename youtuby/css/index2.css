@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+#top-menu .bg-light{
+    background-color: #fff !important;
+}
+body{
+    font-family: cairo,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #fafafa;
+}
+a{
+    color: #000;
+    text-decoration: none !important;
+}
+#top-menu .yla{
+    background-color: #bf40bf;
+    color: #fff;
+    border-radius: 15%;
+}
+nav .navbar-nav .nav-link:hover,
+nav .navbar-nav .active .nav-link{
+    background-color: #bf40bf;
+    color: #fff !important;
+} 
+button{
+    background-color: transparent !important;
+    color: #bf40bf !important;
+    border-color: #bf40bf !important;
+}
+button:hover{
+    background-color: #bf40bf !important;
+    color: #fff !important;
+}
+.modal .modal-header .close:hover{
+background-color: transparent !important;
+color: #bf40bf !important;
+}
+input.form-control:focus,
+button:focus{
+    box-shadow: none !important;
+}
+.navbar .signin{
+    color: #bf40bf;
+}
+.card .cardicons{
+    position: relative;
+}
+time{
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+    background-color: #000;
+    color: #fff;
+    padding: 0 2px;
+}
+.card .fa-play{
+    position: absolute;
+    top: 40%;
+    right: 41%;
+    color:#2c3131c7 ;
+    display: none;
+}
+.card:hover .fa-play{
+    display: inline;
+}
+.card:hover{
+    transform:translateY(-0.9%);
+}
+.card:hover{
+    transition: transform 0.5s;
+}
+.card-body .card-title{
+    height: 60px;
+    overflow: hidden;
+}
+#top-menu .fa-bars{
+    cursor: pointer;
+}
+.side-bar{
+    position: fixed;
+    z-index: 4;
+    right: -17rem;
+    transition: 0.5s ease-in-out;
+    background-color: #fff;
+    height: 100%;
+    overflow: hidden;
+}
+.side-bar:hover{
+    overflow-y: scroll;
+}
+.side-bar .purple{
+    color: #bf40bf;
+}
+.side-bar .list-group-item:hover{
+    background-color: #bf40bf;
+    color: #fff;
+}
+.side-bar .list-group-item:hover .purple{
+    color: #fff;
+}
+.side-bar .list-group-item{
+    width: 17rem;
+}
+#lele.toggled .side-bar{
+    right: 0rem;
+}
+.side-bar::-webkit-scrollbar{
+    background: rgb(230, 230, 230);
+    width: 8px;
+}
+.side-bar::-webkit-scrollbar-thumb{
+    background: rgb(179, 179, 179);
+    width: 8px;
+} 
+.layer{
+    background-color: rgb(0, 0, 0,0.5);
+    height: 100vh;
+    width: 100%;
+    z-index: 3;
+    display: none;
+    position: fixed;
+    top: 0;
+}
+.navbar .searchicon{
+    color: #bf40bf;
+    cursor: pointer;
+    position: absolute;
+    top: 19px;
+    left: 140px;
+    display: none;
+    padding: 12px 10px;
+}
+.navbar .searchicon:hover{
+    color: #fff;
+    background-color: #bf40bf;
+}
+.searchbar{
+    height: 60px;
+    position: fixed;
+    top: 70px;
+    background-color: #efeeee;
+    padding:6px 12px ;
+    border: none;
+    display: none;
+    z-index: 2;
+}
+.searchbar:focus{
+    background-color: #efeeee;
+}
+.layer2{
+    z-index:1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+    background-color: rgb(0, 0, 0,0.5);
+}
+.card-horizontal .card-body p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-body{
+    min-width: 0;
+}  
+@media (max-width:1074px){
+    .navbar .collapse .form-inline{
+        display:none;
+    }
+    .navbar .searchicon{
+        display: inline;
+    }
+}
+@media (min-width: 1074px){
+    .searchbar{
+        display: none !important;
+    }
+    .layer2{
+        display: none !important;
+    }
+}
+    

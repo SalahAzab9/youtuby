@@ -1,0 +1,63 @@
+.mini-icons{
+    position: absolute;
+    bottom: 20px;
+    right:20px;
+}
+.mini-icons i{
+    cursor: pointer;
+}
+.mini-icons .alert{
+    cursor: pointer;
+    
+}
+.clear {
+    display: none;
+}
+.card-title{
+    margin-bottom: 0px !important;
+    height: 35px !important;
+}
+.card:hover{
+    transform: none;
+}
+.card .card-body #more{
+    display: none;
+}
+.card .card-body .card-title{
+    height: 60px !important;
+}
+.card .cardicons .fa-play{
+    top: 39%;
+    right: 44%;
+}
+time{
+bottom: 6px;
+left: 22px;
+}
+.channel-comment{
+    display: none ;
+}
+#exampleFormControlTextarea4{
+    box-shadow: none;
+}
+.click{
+    background-color: #921192;
+    border: #921192;
+    color: #fff;
+}
+.click:hover{
+    background-color: #af28af;
+}
+@media (min-width:992px){
+    .card .cardicons .fa-play{
+        font-size: 25px;
+        }
+    time{
+        font-size: 10px;
+    }
+}
+@media (max-width: 1021px){
+    .card-body .row .text-secondary{
+        font-size: 8px;
+    }
+}
