@@ -1,0 +1,29 @@
+.subscribebutton{
+    background-color: #bf40bf !important;
+    color: #fff !important;
+    margin-right: 20px;
+    bottom: 18px; 
+    right: 18px;
+}
+
+.social-media{
+    bottom:18px; 
+    left:18px;
+}
+
+.video-section .card{
+    transform: none;
+}
+
+@media (max-width:583px){
+    .navbar .navbar-nav{
+        font-size:13px;
+    }
+}
+
+@media (max-width :991px){
+    .navbar .navbar-nav .nav-link{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
